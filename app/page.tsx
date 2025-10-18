@@ -476,8 +476,13 @@ export default function EmojiDesigner() {
       </div>
 
       <div className="text-sm opacity-70 leading-relaxed">
-        <p>emodis v1.0.3</p>
-        <p>©2025 nakano</p>
+        <a
+              href="https://github.com/fin4le-p/emodis"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline hover:text-blue-300"
+            >github</a> 
+        <p>emodis v1.0.4</p>
       </div>
     </div>
   );
