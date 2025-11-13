@@ -11,5 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 1.0,
     },
+    {
+      url: `${baseUrl}/rv`,
+      lastModified: new Date().toISOString(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
 }
